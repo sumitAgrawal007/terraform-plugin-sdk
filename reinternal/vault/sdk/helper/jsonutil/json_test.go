@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/vault/sdk/helper/compressutil"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/vault/sdk/helper/compressutil"
 )
 
 func TestJSONUtil_CompressDecompressJSON(t *testing.T) {

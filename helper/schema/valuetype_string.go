@@ -17,11 +17,12 @@ func _() {
 	_ = x[TypeMap-6]
 	_ = x[TypeSet-7]
 	_ = x[typeObject-8]
+	_ = x[TypeFunction-9]
 }
 
-const _ValueType_name = "TypeInvalidTypeBoolTypeIntTypeFloatTypeStringTypeListTypeMapTypeSettypeObject"
+const _ValueType_name = "TypeInvalidTypeBoolTypeIntTypeFloatTypeStringTypeListTypeMapTypeSettypeObjectTypeFunction"
 
-var _ValueType_index = [...]uint8{0, 11, 19, 26, 35, 45, 53, 60, 67, 77}
+var _ValueType_index = [...]uint8{0, 11, 19, 26, 35, 45, 53, 60, 67, 77, 89}
 
 func (i ValueType) String() string {
 	if i < 0 || i >= ValueType(len(_ValueType_index)-1) {

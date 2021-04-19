@@ -15,7 +15,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/plugin/convert"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugin/convert"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 

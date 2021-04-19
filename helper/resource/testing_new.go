@@ -12,7 +12,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/plugintest"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugintest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 

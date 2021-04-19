@@ -12,8 +12,8 @@ import (
 	ctyjson "github.com/hashicorp/go-cty/cty/json"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/configs/hcl2shim"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/diagutils"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/diagutils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 

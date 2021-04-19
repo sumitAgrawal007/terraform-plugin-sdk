@@ -2,6 +2,10 @@ module github.com/hashicorp/terraform-plugin-sdk/v2
 
 go 1.15
 
+replace github.com/hashicorp/hcl/v2 => /Users/asumit/go/src/github.com/hashicorp/hcl
+
+replace github.com/zclconf/go-cty => /Users/asumit/go/src/github.com/zclconf/go-cty
+
 require (
 	cloud.google.com/go v0.61.0 // indirect
 	github.com/agext/levenshtein v1.2.2 // indirect
@@ -37,7 +41,7 @@ require (
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/mitchellh/reflectwalk v1.0.1
 	github.com/pierrec/lz4 v2.0.5+incompatible
-	github.com/zclconf/go-cty v1.2.1
+	github.com/zclconf/go-cty v1.8.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/tools v0.0.0-20200713011307-fd294ab11aed
 	google.golang.org/grpc v1.32.0

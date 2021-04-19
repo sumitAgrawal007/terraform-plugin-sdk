@@ -14,10 +14,10 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5/tftypes"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/configs/configschema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/configs/hcl2shim"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/plans/objchange"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/plugin/convert"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/configschema"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plans/objchange"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugin/convert"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 

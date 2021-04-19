@@ -15,6 +15,7 @@ const (
 	TypeMap
 	TypeSet
 	typeObject
+	TypeFunction
 )
 
 // NOTE: ValueType has more functions defined on it in schema.go. We can't
