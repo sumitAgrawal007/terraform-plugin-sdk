@@ -12,10 +12,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/terraform-exec/tfexec"
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
+	testing "github.com/mitchellh/go-testing-interface"
 	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/plugin"
 	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/plugintest"
-	testing "github.com/mitchellh/go-testing-interface"
 )
 
 func runProviderCommand(t testing.T, f func() error, wd *plugintest.WorkingDir, factories map[string]func() (*schema.Provider, error), v5factories map[string]func() (tfprotov5.ProviderServer, error)) error {
