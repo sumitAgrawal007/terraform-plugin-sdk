@@ -7,9 +7,9 @@ import (
 
 	tfjson "github.com/hashicorp/terraform-json"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/addrs"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/tfdiags"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/addrs"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/tfdiags"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 type shimmedState struct {

@@ -1,4 +1,4 @@
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/hashicorp/terraform-plugin-sdk/v2)](https://pkg.go.dev/github.com/hashicorp/terraform-plugin-sdk/v2)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/sumitAgrawal007/terraform-plugin-sdk/v2)](https://pkg.go.dev/github.com/sumitAgrawal007/terraform-plugin-sdk/v2)
 
 # Terraform Plugin SDK
 
@@ -61,12 +61,12 @@ Migrating to the v2 release of the SDK is covered in the [v2 Upgrade Guide](http
 
 ## Versioning
 
-The Terraform Plugin SDK is a [Go module](https://github.com/golang/go/wiki/Modules) versioned using [semantic versioning](https://semver.org/). See [SUPPORT.md](https://github.com/hashicorp/terraform-plugin-sdk/blob/main/SUPPORT.md) for information on our support policies.
+The Terraform Plugin SDK is a [Go module](https://github.com/golang/go/wiki/Modules) versioned using [semantic versioning](https://semver.org/). See [SUPPORT.md](https://github.com/sumitAgrawal007/terraform-plugin-sdk/blob/main/SUPPORT.md) for information on our support policies.
 
 ## Contributing
 
-See [`.github/CONTRIBUTING.md`](https://github.com/hashicorp/terraform-plugin-sdk/blob/main/.github/CONTRIBUTING.md)
+See [`.github/CONTRIBUTING.md`](https://github.com/sumitAgrawal007/terraform-plugin-sdk/blob/main/.github/CONTRIBUTING.md)
 
 ## License
 
-[Mozilla Public License v2.0](https://github.com/hashicorp/terraform-plugin-sdk/blob/main/LICENSE)
+[Mozilla Public License v2.0](https://github.com/sumitAgrawal007/terraform-plugin-sdk/blob/main/LICENSE)

@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	testinginterface "github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func init() {

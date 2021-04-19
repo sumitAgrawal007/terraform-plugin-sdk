@@ -6,8 +6,8 @@ import (
 	testing "github.com/mitchellh/go-testing-interface"
 
 	"github.com/hashicorp/go-cty/cty"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/diag"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
 )
 
 type testCase struct {

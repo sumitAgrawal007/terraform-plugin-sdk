@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/go-cty/cty"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/configschema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/configschema"
 )
 
 // StringKind represents the format a string is in.

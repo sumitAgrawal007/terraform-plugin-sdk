@@ -11,10 +11,10 @@ import (
 	"github.com/hashicorp/go-cty/cty"
 	ctyjson "github.com/hashicorp/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/diagutils"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/diag"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/diagutils"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func TestResourceApply_create(t *testing.T) {

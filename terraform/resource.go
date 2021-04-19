@@ -11,8 +11,8 @@ import (
 	"github.com/mitchellh/copystructure"
 	"github.com/mitchellh/reflectwalk"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/configschema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/configschema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
 )
 
 // InstanceInfo is used to hold information about the instance and/or

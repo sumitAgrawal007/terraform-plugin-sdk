@@ -3,8 +3,8 @@ package customdiff
 import (
 	"context"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func testProvider(s map[string]*schema.Schema, cd schema.CustomizeDiffFunc) *schema.Provider {

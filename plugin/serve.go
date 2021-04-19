@@ -9,7 +9,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
 	tf5server "github.com/hashicorp/terraform-plugin-go/tfprotov5/server"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
 )
 
 const (

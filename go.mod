@@ -1,4 +1,4 @@
-module github.com/hashicorp/terraform-plugin-sdk/v2
+module github.com/sumitAgrawal007/terraform-plugin-sdk/v2
 
 go 1.15
 

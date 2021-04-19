@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
 )
 
 func TestAll(t *testing.T) {

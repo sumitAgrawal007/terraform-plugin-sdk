@@ -11,9 +11,9 @@ import (
 	testing "github.com/mitchellh/go-testing-interface"
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugintest"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/plugintest"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func runPostTestDestroy(t testing.T, c TestCase, wd *plugintest.WorkingDir, factories map[string]func() (*schema.Provider, error), v5factories map[string]func() (tfprotov5.ProviderServer, error), statePreDestroy *terraform.State) error {

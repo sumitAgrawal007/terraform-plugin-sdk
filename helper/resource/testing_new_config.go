@@ -7,8 +7,8 @@ import (
 	tfjson "github.com/hashicorp/terraform-json"
 	testing "github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugintest"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/plugintest"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func testStepNewConfig(t testing.T, c TestCase, wd *plugintest.WorkingDir, step TestStep) error {

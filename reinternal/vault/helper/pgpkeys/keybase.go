@@ -10,7 +10,7 @@ import (
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	"github.com/keybase/go-crypto/openpgp"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/vault/sdk/helper/jsonutil"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/vault/sdk/helper/jsonutil"
 )
 
 const (

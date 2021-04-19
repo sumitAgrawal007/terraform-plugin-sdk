@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/structure"
 )
 
 // StringIsNotEmpty is a ValidateFunc that ensures a string is not empty

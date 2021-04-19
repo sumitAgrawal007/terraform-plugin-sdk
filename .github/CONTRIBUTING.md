@@ -41,7 +41,7 @@ This section describes the scope of notable repositories, which may help you
 ensure you're in the right place when reporting bugs and feature requests,
 or submitting a patch.
 
- - `hashicorp/terraform` - Terraform **Core** which implements all the low-level functionality which isn't domain specific (that's covered by providers). Read more about [distinction between core & providers in the Readme](https://github.com/hashicorp/terraform-plugin-sdk/blob/main/README.md#scope-providers-vs-core).
+ - `hashicorp/terraform` - Terraform **Core** which implements all the low-level functionality which isn't domain specific (that's covered by providers). Read more about [distinction between core & providers in the Readme](https://github.com/sumitAgrawal007/terraform-plugin-sdk/blob/main/README.md#scope-providers-vs-core).
  - `terraform-providers/*` - This organization contains all official Terraform **Providers** built on top of the Plugin SDK
  - `hashicorp/terraform-plugin-sdk` - Terraform **Plugin SDK** used to build Providers
  - `hashicorp/terraform-website` - Source code of **documentation** published on [terraform.io](https://www.terraform.io), including [Extend section](https://www.terraform.io/docs/extend/index.html) which has source in [the `extend` folder](https://github.com/hashicorp/terraform-website/tree/main/content/source/docs/extend).

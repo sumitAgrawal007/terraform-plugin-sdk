@@ -7,8 +7,8 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	testing "github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugintest"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/plugintest"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 func testStepNewImportState(t testing.T, c TestCase, helper *plugintest.Helper, wd *plugintest.WorkingDir, step TestStep, cfg string) error {

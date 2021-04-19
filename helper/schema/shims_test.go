@@ -14,13 +14,13 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/go-cty/cty"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/configschema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/diagutils"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/helper/hashcode"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/providers"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/tfdiags"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/configschema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/diagutils"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/helper/hashcode"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/providers"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/tfdiags"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 var (
@@ -2202,7 +2202,7 @@ func TestShimSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/hashicorp/terraform-plugin-sdk/issues/824",
+			Name: "https://github.com/sumitAgrawal007/terraform-plugin-sdk/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": {
 					Type:     TypeSet,

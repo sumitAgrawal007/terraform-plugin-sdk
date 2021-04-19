@@ -18,8 +18,8 @@ import (
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/mitchellh/copystructure"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/addrs"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/addrs"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/configs/hcl2shim"
 )
 
 const (

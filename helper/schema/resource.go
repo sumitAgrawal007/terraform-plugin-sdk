@@ -9,8 +9,8 @@ import (
 
 	"github.com/hashicorp/go-cty/cty"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/diag"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 var ReservedDataSourceFields = []string{
@@ -238,7 +238,7 @@ type Resource struct {
 	// be used in all new resources to avoid bugs with sufficiently large
 	// user input.
 	//
-	// See github.com/hashicorp/terraform-plugin-sdk/issues/655 for more
+	// See github.com/sumitAgrawal007/terraform-plugin-sdk/issues/655 for more
 	// details.
 	UseJSONNumber bool
 }

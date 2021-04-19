@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/diag"
 )
 
 type ErrorDiags diag.Diagnostics

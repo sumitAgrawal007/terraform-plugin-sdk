@@ -3,7 +3,7 @@ package customdiff
 import (
 	"context"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
 )
 
 // ResourceConditionFunc is a function type that makes a boolean decision based

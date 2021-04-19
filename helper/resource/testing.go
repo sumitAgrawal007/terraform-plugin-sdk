@@ -14,11 +14,11 @@ import (
 	testing "github.com/mitchellh/go-testing-interface"
 
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/logging"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/addrs"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/reinternal/plugintest"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/logging"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/addrs"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/reinternal/plugintest"
+	"github.com/sumitAgrawal007/terraform-plugin-sdk/v2/terraform"
 )
 
 // flagSweep is a flag available when running tests on the command line. It
